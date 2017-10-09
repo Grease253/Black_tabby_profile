@@ -1,0 +1,85 @@
+<HBProfile>
+  <Name>Edwardo's Black tabby grind</Name>
+  <MinDurability>0.90</MinDurability>   
+  <MinFreeBagSlots>10</MinFreeBagSlots> 
+  <SellGrey>True</SellGrey>   
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <SellBlue>False</SellBlue>  
+  <SellPurple>False</SellPurple>
+
+  <MinLevel>20</MinLevel>   
+  <MaxLevel>1111</MaxLevel>  
+
+  <MailWhite>false</MailWhite>   
+  <MailGreen>false</MailGreen>
+  <MailBlue>false</MailBlue>
+  <MailPurple>false</MailPurple>
+
+  <DefaultNavType>Fly</DefaultNavType>  
+  <AvoidMobs>
+      <Mob Name="Blackwind Warp Chaser" Entry="23219" />
+  </AvoidMobs>
+   
+  
+  <Blackspots>
+      <Blackspot Name="wooden structure" X="-78.83584" Y="-83.58395" Z="138.6633" Radius="3" />
+  </Blackspots>
+   
+   
+
+   
+  <Mailboxes>
+      <Mailbox Name="Tarren mill" X="-40.93" Y="-915.27" Z="55.58" 
+                Nav="Fly" UsableWhen="Me.IsHorde" />
+  </Mailboxes>
+   
+   
+  <Vendors>
+    <Vendor Name="Ott" Entry="3539" Type="Repair" Nav="Fly" X="-59.941" Y="-954.156" Z="54.28919" />
+  </Vendors>
+  
+  <QuestOrder>
+    <SetGrindArea>
+      <GrindArea>
+        <MobIds>2372 49116 2385 48741 2248 48184 48017 48628 47204</MobIds>
+        <TargetMinLevel>1</TargetMinLevel>
+        <TargetMaxLevel>1111</TargetMaxLevel>
+        <MaxDistance>100</MaxDistance>
+        <TargetElites>true</TargetElites>
+        <RandomizeHotspots>false</RandomizeHotspots>        
+        <Hotspots>
+          <Hotspot Name="boat" X="-908" Y="-992" Z="30" />
+                   
+                   <Hotspot Name="boat" X="-70" Y="-140" Z="133" />
+                   <Hotspot Name="boat" X="-75" Y="-102" Z="134" />
+                   <Hotspot Name="boat" X="-64" Y="-88" Z="132" />
+                   <Hotspot Name="boat" X="-105" Y="-83" Z="140" />
+                   
+                   <Hotspot Name="boat" X="170" Y="-863" Z="158" />
+
+                   <Hotspot Name="boat" X="-270" Y="-440" Z="66" />
+                   <Hotspot Name="boat" X="-216" Y="-440" Z="71" />
+                   <Hotspot Name="boat" X="-282" Y="-416" Z="67" />
+                   <Hotspot Name="boat" X="-266" Y="-389" Z="66" />
+                   <Hotspot Name="boat" X="-211" Y="-374" Z="72" />
+                   <Hotspot Name="boat" X="-190" Y="-338" Z="72" />
+                   <Hotspot Name="boat" X="-264" Y="-350" Z="66" />
+                   <Hotspot Name="boat" X="-226" Y="-324" Z="57" />
+                   <Hotspot Name="boat" X="-211" Y="-364" Z="49" />
+                   <Hotspot Name="boat" X="-168" Y="-375" Z="51" />
+                   <Hotspot Name="boat" X="-139" Y="-361" Z="52" />
+                   <Hotspot Name="boat" X="-150" Y="-321" Z="52" />
+                   <Hotspot Name="boat" X="-168" Y="-329" Z="53" />
+                   <Hotspot Name="boat" X="-237" Y="-361" Z="48" />
+                   <Hotspot Name="boat" X="-259" Y="-319" Z="44" />
+                   <Hotspot Name="boat" X="-302" Y="-303" Z="43" />
+                   <Hotspot Name="boat" X="-297" Y="-266" Z="48" />
+                   <Hotspot Name="boat" X="-263" Y="-280" Z="52" />
+        </Hotspots>
+           </GrindArea>    
+       </SetGrindArea>
+  <GrindTo Condition="Me.Level >= 110" /> 
+  </QuestOrder>  
+
+</HBProfile>
